@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body 
+{
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.header 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header h1 
+{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 50px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 50px;
+    color: #000;
+}
+.box 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.row 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button 
+{
+    border: 2px solid #000;
+    height: 110px;
+    margin: 2px;
+    width: 110px;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 500;
+}
+.button:hover 
+{
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
+.button:disabled
+{
+    color: #000;
+    cursor: no-drop;
+}
+.result 
+{
+    text-align: center;
+    color: #000;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+.reset
+{
+    text-align: center;
+}
+#reset 
+{
+    border: 1px solid #000;
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 17px;
+    margin: 35px;
+    transition: all 0.1s ease-in-out;
+    letter-spacing: 2px;
+}
+#reset:hover 
+{
+    color: #fff;
+    background-color: #000;
+}
